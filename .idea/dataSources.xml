@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="qytangdb" uuid="6a8ddeec-36d0-4b94-b519-ddbeddd5dcf4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:G:\资料\PyCharmProjects\Python基础课\Charpter15_数据持久化\qytangdb.sqlite</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="qytanghomework" uuid="747ce32e-aa00-4a6b-abda-48f62196bdc0">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:G:\资料\PyCharmProjects\Python基础课\Charpter15_数据持久化\qytanghomework.sqlite</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="qytangcode" uuid="72370648-5ec9-4dfe-8c0f-ed7d001a11a4">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\colli\OneDrive\我的资料\资料\PyCharmProjects\Python基础课\Charpter15_数据持久化\sqlite_dir\qytangcode.sqlite</jdbc-url>
+    </data-source>
+  </component>
+</project>

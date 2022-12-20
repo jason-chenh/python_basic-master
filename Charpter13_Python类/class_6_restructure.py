@@ -1,0 +1,24 @@
+#!/usr/bin/env python3
+# -*- coding=utf-8 -*-
+# 本脚由亁颐堂现任明教教主编写，用于乾颐盾Python课程！
+# 教主QQ:605658506
+# 亁颐堂官网www.qytang.com
+# 教主技术进化论拓展你的技术新边疆
+# https://ke.qq.com/course/271956?tuin=24199d8a
+
+from class_5_1_person_format_str import Person
+
+
+class Manager(Person):
+    def __init__(self, name, age, pay):
+        # 为Manager类产生的实例自动产生Job为'manager'
+        Person.__init__(self, name, age, pay, 'manager')
+
+    def giveraise(self, percent, bonus=0.1):
+        Person.giveraise(self, percent + bonus)
+
+
+if __name__ == '__main__':
+    tom = Manager(name='Tom Doe', age=50, pay=50000)
+    print(tom.job)
+    print(tom)
